@@ -5,12 +5,13 @@
     <Authors>LGinC@github.com, Rich Quackenbush, Jesse Beard</Authors>
     <Company>OSS</Company>
     <Description>A serial port adapter implementation for the SerialPortStream library. Please note that an additional native dll is necessary to make this work. More details can be found at: https://github.com/jcurl/SerialPortStream</Description>
-    <PackageProjectUrl>https://github.com/NModbus/NModbus</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/NModbus/NModbus</RepositoryUrl>
+    <VersionPrefix>3.0.78-ise1</VersionPrefix>
+    <PackageProjectUrl>https://github.com/isetim/NModbus</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/isetim/NModbus</RepositoryUrl>
     <PackageTags>Modbus SerialPortStream Serial</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
-	<NoWarn>1701;1702;1705;1591</NoWarn>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
